@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>utils/math.js - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Classes</li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="ConfirmLeave.html">ConfirmLeave</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="ManagedNumberField.html">ManagedNumberField</a></span></li><li class="nav-heading">Modules</li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25257BObject%25257D.html">{Object}</a></span></li><li class="nav-heading"><a href="global.html">Globals</a></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#AboutContent">AboutContent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#BottomButton">BottomButton</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#BottomButtons">BottomButtons</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#CashFlowRow">CashFlowRow</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#CLIENT_DEFAULTS">CLIENT_DEFAULTS</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#ColumnHeader">ColumnHeader</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#ColumnHeading">ColumnHeading</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#CurrentBenefitsContent">CurrentBenefitsContent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#CurrentBenefitsStep">CurrentBenefitsStep</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#CurrentExpensesStep">CurrentExpensesStep</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#CurrentIncomeStep">CurrentIncomeStep</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#ExpensesFormContent">ExpensesFormContent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#ExternalLink">ExternalLink</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#FormHeading">FormHeading</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#FormPartsContainer">FormPartsContainer</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#FormSubheading">FormSubheading</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getAdjustedIncome">getAdjustedIncome</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getDependentCostsMonthly">getDependentCostsMonthly</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getDisabledAndMedicalAllowancesSum">getDisabledAndMedicalAllowancesSum</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getEveryMember">getEveryMember</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getEveryMemberOfHousehold">getEveryMemberOfHousehold</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getExtraAmount">getExtraAmount</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getGrossUnearnedIncomeMonthly">getGrossUnearnedIncomeMonthly</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getHousingBenefit">getHousingBenefit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getMaxIntKey">getMaxIntKey</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getMembers">getMembers</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getMonthlyLimitBySize">getMonthlyLimitBySize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getNetIncome">getNetIncome</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getProgramNameBenefits">getProgramNameBenefits</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getShelterDeduction">getShelterDeduction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getSimpleGrossIncomeMonthly">getSimpleGrossIncomeMonthly</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getSNAPBenefits">getSNAPBenefits</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getTimeSetter">getTimeSetter</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getTTPs">getTTPs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getYearlyLimitBySize">getYearlyLimitBySize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#HouseholdContent">HouseholdContent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#HouseholdStep">HouseholdStep</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#Housing">Housing</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#IncomeForm">IncomeForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#InlineLabelInfo">InlineLabelInfo</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#IntervalColumnHeadings">IntervalColumnHeadings</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#isDependent">isDependent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#isPositiveWholeNumber">isPositiveWholeNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#limit">limit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#MassiveButton">MassiveButton</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#MassiveToggle">MassiveToggle</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#MemberButton">MemberButton</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#MemberField">MemberField</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#PredictionsStep">PredictionsStep</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#returnSame">returnSame</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#Role">Role</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#sampleClients">sampleClients</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#sum">sum</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#sumProps">sumProps</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#toMoneyStr">toMoneyStr</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#undefinedString">undefinedString</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#UNEARNED_INCOME_SOURCES">UNEARNED_INCOME_SOURCES</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#valueFixers">valueFixers</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">utils/math.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/** For different kinds of math operations we need, some unconventional */
+
+const sum = function ( vals ) {
+  var total = 0;
+  for (let vali = 0; vali &lt; vals.length; vali++) {
+    total += vals[ vali ];
+  };
+  return total;
+};
+
+
+const roundMoney = function ( val ) {
+  // Only round values for display. In actual calculations and
+  // storage objects, keep things exact. Also, this doesn't restrict
+  // to two decimal places. Do that in the input's attributes.
+  return ( Math.round(val * 100) / 100 ); // val = '' returns 0
+};  // End roundMoney()
+
+/**
+* Turns a value into a float, limits it in between min and max, and
+* makes sure to return a number (not NaN).
+* 
+* @todo Testing required
+*/
+const limit = function ( initialVal, minMax ) {
+
+  /** @todo Add trailing 0's somewhere */
+  var min = minMax.min,
+      max = minMax.max;
+
+  var raw   = parseFloat( initialVal ),
+      value = raw;
+  if ( typeof min === 'number' &amp;&amp; !isNaN(min) ) { value = Math.max( min, raw ); }
+  if ( typeof max === 'number' &amp;&amp; !isNaN(max) ) { value = Math.min( max, raw ); }
+
+  if ( isNaN( value ) ) { value = 0; }
+
+  return value;
+};  // End limit()
+
+
+var toMonthlyAmount = {};
+
+toMonthlyAmount.weekly = function ( evnt, weeklyVal ) {
+
+  /** @see {@link https://docs.google.com/document/d/13kb1hsxMi6pN9oAUGsTatDz4OSX5IeDLF9B-ddPjMCk/edit#heading=h.hxz256tmbsz9} */ 
+  var monthlyRaw  = weeklyVal * 4.33,
+      monthly     = toMonthlyAmount[ 'monthly' ]( evnt, monthlyRaw );
+  return monthly;
+
+};  // End toMonthlyAmount.weekly()
+
+
+toMonthlyAmount.monthly = function ( evnt, monthlyVal ) {
+  // Monthly is used for a lot of things and is the one we want to store
+  var monthlyInBounds = limit( monthlyVal, { min: 0 } );
+  return monthlyInBounds;
+
+};  // End toMonthlyAmount.monthly()
+
+
+toMonthlyAmount.yearly = function ( evnt, yearlyVal ) {
+
+  /** @see {@link https://docs.google.com/document/d/13kb1hsxMi6pN9oAUGsTatDz4OSX5IeDLF9B-ddPjMCk/edit#heading=h.hxz256tmbsz9} */ 
+  var monthlyRaw  = ( yearlyVal / 12 ),
+      monthly     = toMonthlyAmount[ 'monthly' ]( evnt, monthlyRaw );
+  return monthly;
+
+};  // End toMonthlyAmount.yearly()
+
+
+export { sum, roundMoney, limit, toMonthlyAmount };
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Mon Dec 11 2017 14:46:28 GMT-0500 (EST) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

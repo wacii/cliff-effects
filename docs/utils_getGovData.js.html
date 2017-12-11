@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>utils/getGovData.js - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Classes</li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="ConfirmLeave.html">ConfirmLeave</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="ManagedNumberField.html">ManagedNumberField</a></span></li><li class="nav-heading">Modules</li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25257BObject%25257D.html">{Object}</a></span></li><li class="nav-heading"><a href="global.html">Globals</a></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#AboutContent">AboutContent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#BottomButton">BottomButton</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#BottomButtons">BottomButtons</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#CashFlowRow">CashFlowRow</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#CLIENT_DEFAULTS">CLIENT_DEFAULTS</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#ColumnHeader">ColumnHeader</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#ColumnHeading">ColumnHeading</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#CurrentBenefitsContent">CurrentBenefitsContent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#CurrentBenefitsStep">CurrentBenefitsStep</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#CurrentExpensesStep">CurrentExpensesStep</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#CurrentIncomeStep">CurrentIncomeStep</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#ExpensesFormContent">ExpensesFormContent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#ExternalLink">ExternalLink</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#FormHeading">FormHeading</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#FormPartsContainer">FormPartsContainer</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#FormSubheading">FormSubheading</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getAdjustedIncome">getAdjustedIncome</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getDependentCostsMonthly">getDependentCostsMonthly</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getDisabledAndMedicalAllowancesSum">getDisabledAndMedicalAllowancesSum</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getEveryMember">getEveryMember</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getEveryMemberOfHousehold">getEveryMemberOfHousehold</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getExtraAmount">getExtraAmount</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getGrossUnearnedIncomeMonthly">getGrossUnearnedIncomeMonthly</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getHousingBenefit">getHousingBenefit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getMaxIntKey">getMaxIntKey</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getMembers">getMembers</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getMonthlyLimitBySize">getMonthlyLimitBySize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getNetIncome">getNetIncome</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getProgramNameBenefits">getProgramNameBenefits</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getShelterDeduction">getShelterDeduction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getSimpleGrossIncomeMonthly">getSimpleGrossIncomeMonthly</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getSNAPBenefits">getSNAPBenefits</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getTimeSetter">getTimeSetter</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getTTPs">getTTPs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#getYearlyLimitBySize">getYearlyLimitBySize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#HouseholdContent">HouseholdContent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#HouseholdStep">HouseholdStep</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#Housing">Housing</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#IncomeForm">IncomeForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#InlineLabelInfo">InlineLabelInfo</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#IntervalColumnHeadings">IntervalColumnHeadings</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#isDependent">isDependent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#isPositiveWholeNumber">isPositiveWholeNumber</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#limit">limit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#MassiveButton">MassiveButton</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#MassiveToggle">MassiveToggle</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#MemberButton">MemberButton</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#MemberField">MemberField</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#PredictionsStep">PredictionsStep</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#returnSame">returnSame</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#Role">Role</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#sampleClients">sampleClients</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#sum">sum</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#sumProps">sumProps</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#toMoneyStr">toMoneyStr</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#undefinedString">undefinedString</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#UNEARNED_INCOME_SOURCES">UNEARNED_INCOME_SOURCES</a></span></li><li class="nav-item"><span class="nav-item-type type-member">M</span><span class="nav-item-name"><a href="global.html#valueFixers">valueFixers</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">utils/getGovData.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/** 
+* Getting or calculating data values by leveraging common data patterns
+* we've seen so far.
+*/
+
+
+/** Calculate appropriate MONTHLY bracket/limit value (such as income limit)
+* by number of relevant items (such as number of household members). This
+* function is needed because the math for these calculation needs to be
+* consistent.
+* 
+* @see Math observed at {link http://www.mass.gov/eohhs/docs/masshealth/deskguides/fpl-deskguide.pdf}
+* @see More notes on data at {link https://docs.google.com/document/d/1DRNm1TLP31s_yDdsH8IDoRV7_KjjJ46NyAaZOgLoQmY/edit#}
+* 
+* IF YOUR DATA HAS MONTHLY VALUES AND WANT A MONTHLY LIMIT VALUE, USE
+* `getYearlyLimitBySize()` INSTEAD.
+* 
+* @example Using household size to get federal poverty income limit:
+* var fedPovertyGuidelines = { 0: 0, 1: 12060, 2: 16240, eachAdditional: 4180 };
+* getMonthlyLimitBySize( fedPovertyGuidelines, 1 );  // 1005
+* getMonthlyLimitBySize( fedPovertyGuidelines, 2 );  // 1354
+* getMonthlyLimitBySize( fedPovertyGuidelines, 3 );  // 1702
+* 
+* @function
+* @param {object} data Annual data to use to get a bracket/limit value.
+* @param {number} data.0 Never known to equal more than 0 so far.
+* @param {number} data.1 (Or any int key) Value of bracket/limit that
+* matches the number described by the key. For example, data.3 would be
+* the income limit value for a household with three members.
+* @param {number|function} data.eachAdditional Usually an amount to
+* add for each person or item over the maximum hardcoded limits. Can be a
+* function to calculate said amount based on number of extra items.
+* @param {number} numItems Number of items (for example, household size).
+* @param {number} [percent] Multiplies limit. You'd pass in 100% as `100`.
+* 
+* @returns Data value for num items, divided by 12 to get monthly value.
+*/
+var getMonthlyLimitBySize = function ( data, numItems, percent ) {
+  var yearly  = getYearlyLimitBySize( data, numItems, percent ),
+      monthly = Math.ceil( yearly/12 );
+  return monthly;
+};  // End getMonthlyLimitBySize()
+
+
+/** Calculate appropriate ANNUAL/YEARLY bracket/limit value (such as income
+* limit) by number of relevant items (such as number of household members).
+* 
+* Uses all the same values as `getMonthlyLimitBySize`, but no dividing
+* happens.
+* 
+* IF YOUR DATA HAS MONTHLY VALUES AND WANT A MONTHLY LIMIT VALUE, USE
+* THIS FUNCTION WITH YOUR DATA
+* 
+* @see Math observed at {link http://www.mass.gov/eohhs/docs/masshealth/deskguides/fpl-deskguide.pdf}
+* @see More notes on data at {link https://docs.google.com/document/d/1DRNm1TLP31s_yDdsH8IDoRV7_KjjJ46NyAaZOgLoQmY/edit#}
+* 
+* @example Using household size to get federal poverty income limit:
+* var fedPovertyGuidelines = { 0: 0, 1: 12060, 2: 16240, eachAdditional: 4180 };
+* getYearlyLimitBySize( fedPovertyGuidelines, 1 );  // 12060
+* getYearlyLimitBySize( fedPovertyGuidelines, 2 );  // 16240
+* getYearlyLimitBySize( fedPovertyGuidelines, 3 );  // 20420
+* 
+* @function
+* @param {object} data Data to use to get a bracket/limit value.
+* @param {number} data.0 Never known to equal more than 0 so far.
+* @param {number} data.1 (Or any int key) Value of bracket/limit that
+* matches the number described by the key. For example, data.3 would be
+* the income limit value for a household with three members.
+* @param {number|function} data.eachAdditional Usually an amount to
+* add for each person or item over the maximum hardcoded limits. Can be a
+* function to calculate said amount based on number of extra items.
+* @param {number} numItems Number of items (for example, household size).
+* @param {number} [percent] Multiplies limit. You'd pass in 100% as `100`.
+* 
+* @returns Data value calculated for the number of items, numItems, wanted.
+*/
+const getYearlyLimitBySize = function ( data, numItems, percent ) {
+  
+  var safePerc  = percent || 100,
+      limit     = null,
+      maxGiven  = getMaxIntKey( data );
+
+  if ( numItems &lt;= maxGiven ) {
+
+    limit = data[ numItems ];
+
+  } else {
+
+    var numExtra    = numItems - maxGiven,
+        extraAmount = getExtraAmount( data, numExtra );
+    limit = data[ maxGiven ] + extraAmount;
+
+  }
+  
+  return Math.ceil( limit * (safePerc/100) );
+};  // End getYearlyLimitBySize()
+
+
+/** Deals with different value types for data.eachAdditional
+* 
+* @function
+* @param {number} numExtra Number of extra items
+* @param {number|function} eachAdditional Either a number value to add
+* for each extra item or a function that will return that number.
+* 
+* @returns {number} The amount created by those extra items.
+*/
+var getExtraAmount = function ( data, numExtra ) {
+
+  var extraAmount     = 0,
+      eachAdditional  = data.eachAdditional;
+
+  // Either allow additional amount to be calculated
+  // or add a hard-coded amount.
+  if ( typeof eachAdditional === 'function' ) {
+
+    extraAmount = eachAdditional( data, numExtra );
+
+  } else {  // Assumed either number or falsy
+
+    /** @todo Future discussioin - flexibility vs. consistency */
+    var overageRate = eachAdditional || 0;
+    extraAmount = numExtra * overageRate;
+
+  }
+
+  return extraAmount;
+};  // End getExtraAmount()
+
+
+/** 
+* Of the keys in an object that can be converted to integers,
+* return the highest converted value.
+*/
+var getMaxIntKey = function ( data ) {
+  var max = 0;
+  for ( let key in data ) {
+
+    var asInt = parseInt( key, 10 );
+    if ( !isNaN(asInt) &amp;&amp; asInt > max ) {
+      max = asInt;
+    }
+
+  }
+  return max;
+};  // End getMaxIntKey()
+
+
+export {
+	getMonthlyLimitBySize,
+  getYearlyLimitBySize,
+};
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Mon Dec 11 2017 14:46:28 GMT-0500 (EST) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

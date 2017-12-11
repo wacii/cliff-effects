@@ -8,7 +8,9 @@
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
     "gh-pages": "^1.0.0",
+    "jsdoc": "^3.5.5",
     "lodash": "^4.17.4",
+    "minami": "^1.2.3",
     "moment": "^2.19.1",
     "react": "^16.0.0",
     "react-chartjs-2": "^2.6.1",
@@ -26,7 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build",
+    "docs": "node_modules/.bin/jsdoc src -d docs -R README.md -t node_modules/minami -r"
   },
   "homepage": "https://codeforboston.github.io/cliff-effects",
   "devDependencies": {
