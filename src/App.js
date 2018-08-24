@@ -17,6 +17,8 @@ import Header from './components/Header';
 // LOCALIZATION
 import { getTextForLanguage } from './utils/getTextForLanguage';
 
+const basePath = "(/dev)?"
+
 // Change HashRouter tags below to Router tags to turn off hash routing; only used to be compatible with GitHub Pages
 class App extends Component {
   constructor (props) {
@@ -44,7 +46,7 @@ class App extends Component {
         <HashRouter getUserConfirmation={ confirmer.getConfirmation }>
           <div id='HashRouter'>
             <Route
-              path="/:rest+"
+              path={basePath + "/:rest+"}
               component={ (props) => {
                 return (
                   <Header
@@ -53,7 +55,7 @@ class App extends Component {
               } } />
             <Route
               exact
-              path="/"
+              path={basePath + "/"}
               component={ (props) => {
                 return (
                   <HomePage
@@ -61,7 +63,7 @@ class App extends Component {
                     snippets={{ ...snippets.homePage, langCode: snippets.langCode }} />);
               } } />
             <Route
-              path="/about"
+              path={basePath + "/about"}
               component={ (props) => {
                 return (
                   <AboutPage
@@ -69,7 +71,7 @@ class App extends Component {
                     snippets={{ ...snippets.aboutPage, langCode: snippets.langCode }} />);
               } } />
             <Route
-              path="/visit/:clientId/:visitId"
+              path={basePath + "/visit/:clientId/:visitId"}
               component={ (props) => {
                 return (
                   <VisitPage
@@ -78,7 +80,7 @@ class App extends Component {
                     snippets  = {{ ...snippets.visitPage, langCode: snippets.langCode }} />);
               } } />
             <Route
-              path="/visit/load"
+              path={basePath + "/visit/load"}
               component={ (props) => {
                 return (
                   <VisitPage
@@ -87,7 +89,7 @@ class App extends Component {
                     snippets  = {{ ...snippets.visitPage, langCode: snippets.langCode }} />);
               } } />
             <Route
-              path="/load"
+              path={basePath + "/load"}
               component={ (props) => {
                 return (
                   <VisitPage
@@ -98,7 +100,7 @@ class App extends Component {
               
             {/* Currently only works on published build */}
             <Route
-              path="/docs"
+              path={basePath + "/docs"}
               component={
                 <iframe
                   id="docsFrame"
